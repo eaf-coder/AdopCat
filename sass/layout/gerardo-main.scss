@@ -1,0 +1,10 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+.about-gerardo{
+    @include align-center;
+}
+
+.main-section-title-gerardo {
+    @include main-section-title-gerardo;
+}

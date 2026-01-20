@@ -1,0 +1,44 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+
+@media (max-width: 1000px) {
+
+    body{
+        grid-template-areas: 
+            "encabezado encabezado"
+            "titulo titulo"
+            "wiskito rodrigo"
+            "norberto gerardo"
+            "footer footer";
+    }
+
+    header{
+        grid-area: encabezado;
+    }
+
+    .main-index-title{
+        grid-area: titulo;
+        margin-top: 5vh;
+    }
+
+    .wiskito-card-medium{
+        grid-area: wiskito;
+    }
+
+    .rodrigo-card-medium{
+        grid-area: rodrigo;
+    }
+
+    .norberto-card-medium{
+        grid-area: norberto;
+    }
+
+    .gerardo-card-medium{
+        grid-area: gerardo;
+    }
+
+    footer{
+        grid-area: footer;
+    }
+}

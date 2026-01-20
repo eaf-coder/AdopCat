@@ -1,0 +1,18 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+.about-main{
+    @include align-center;
+}
+
+.about-div{
+    background-color: $structure-cards-color;
+    width: 90%;
+    margin: 10px;
+    border-radius: 2vh;
+    padding: 3vh;
+}
+
+.main-section-title-us {
+    @include main-section-title-us;
+}

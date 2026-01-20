@@ -1,0 +1,15 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+.about-wiskito{
+    @include align-center;
+}
+
+.main-section-title-wiskito {
+    @include main-section-title-wiskito
+}
+
+.formulario-link{
+    color: $button-active-color;
+    font-weight: 600;
+}

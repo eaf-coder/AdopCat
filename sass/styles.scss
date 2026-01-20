@@ -1,0 +1,32 @@
+@use "base/reset";
+@use "base/fonts-body";
+
+@use "layout/header";
+
+@use "components/buttons";
+
+@use "layout/main";
+
+@use "components/cards";
+
+@use "components/img-main";
+
+@use "components/form";
+
+@use "components/img-about-wiskito";
+@use "components/img-about-rodrigo";
+@use "components/img-about-norberto";
+@use "components/img-about-gerardo";
+@use "components/img-nostros";
+
+@use "layout/nosotros-main";
+
+@use "layout/wiskito-main";
+@use "layout/rodrigo-main";
+@use "layout/norberto-main";
+@use "layout/gerardo-main";
+
+@use "layout/footer";
+
+@use "layout/media-500";
+@use "layout/media-1000";

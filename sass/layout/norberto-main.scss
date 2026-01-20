@@ -1,0 +1,10 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+.about-norberto{
+    @include align-center;
+}
+
+.main-section-title-norberto {
+    @include main-section-title-norberto;
+}

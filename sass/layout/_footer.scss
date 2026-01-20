@@ -1,0 +1,22 @@
+@use "../utilities/variables" as *;
+
+footer {
+    font-weight: 700;
+    background-color: #BDE8F5;
+    color: rgb(60, 0, 163);
+    font-size: large;
+    margin-top: 5vh;
+    padding: 1vh;
+    text-align: center;
+    border-radius: 4vh 4vh 0 0;
+
+    a:hover {
+        color: rgb(28, 190, 174);
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: rgb(23, 138, 127);
+        text-decoration: underline;
+    }
+}

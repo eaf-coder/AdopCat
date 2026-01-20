@@ -1,0 +1,96 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+
+@media (max-width: 500px) {
+
+    h1{
+        position: absolute;
+        top: 0;
+        margin-left: 35%;
+        margin-right: auto;
+    }
+
+    .inicio-boton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navegador{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5vh;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .navegador-index{
+        padding-top: 7vh;
+        border-radius: 0 0 3vh 3vh;
+    }
+
+    .main-index-section-title{
+        width: 90%;
+        font-size: 4vh;
+    }
+
+    .custom-cards {
+        padding: 10px;
+    }
+
+    img.rodrigo-main,
+    img.wiskito-main,
+    img.norberto-main,
+    img.gerardo-main {
+        width: 75%;
+        margin-bottom: 15px;
+    }
+
+    .main-section-title-gerardo{
+        padding-top: 6vh;
+        text-shadow: 4px 3px 4px rgb(0, 0, 0);
+        height: 75vh;
+
+        &::after {
+            border-radius: 70vh;
+            height: 60vh;
+        }
+    }
+
+    .main-section-title-rodrigo{
+        padding-top: 3vh;
+        color: rgb(0, 0, 0);
+        text-shadow: 1px 1px 13px rgb(207, 207, 207);
+        height: 75vh;
+
+        &::after {
+            border-radius: 70vh;
+            height: 60vh;
+        }
+    }
+
+    .main-section-title-norberto{
+        padding-top: 4vh;
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        height: 75vh;
+
+        &::after {
+            border-radius: 20vh;
+            height: 60vh;
+        }
+    }
+
+    .main-section-title-wiskito{
+        padding-top: 4vh;
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        height: 75vh;
+
+        &::after {
+            border-radius: 20vh;
+            height: 60vh;
+        }
+    }
+
+}

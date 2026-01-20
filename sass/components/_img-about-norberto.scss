@@ -1,0 +1,14 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+.norberto-1{
+    @include img-about;
+}
+
+.norberto-2{
+    @include img-about;
+}
+
+.norberto-3{
+    @include img-about;
+}

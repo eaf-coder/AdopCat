@@ -1,0 +1,24 @@
+@use "../utilities/variables" as *;
+
+.knewave-regular {
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $color-fondo;
+  color: $color-texto;
+  line-height: 1.6;
+}
+
+p {
+    font-size: large;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(40, 207, 190);
+  font-size: large;
+}

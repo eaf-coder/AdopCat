@@ -1,0 +1,21 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+.custom-button-card{
+
+  background-color: $button-color;
+  color: white;
+  margin: 2vh 0 4vh 0;
+  align-items: center;
+  @include elevar-boton-transition;
+
+}
+
+.custom-button-card:hover{
+  background-color: $button-hover-color;
+  transform: $elevar-boton;
+}
+
+.custom-button-card:active{
+  background-color: $button-active-color !important;
+}

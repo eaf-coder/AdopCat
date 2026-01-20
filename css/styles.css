@@ -1,0 +1,593 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.knewave-regular {
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F0F8FF;
+  color: #333333;
+  line-height: 1.6;
+}
+
+p {
+  font-size: large;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(40, 207, 190);
+  font-size: large;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: #BDE8F5;
+  border-radius: 0 0 4vh 4vh;
+}
+header nav a {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1vh;
+  background-color: transparent;
+  transition: transform 1s ease, background-color 1s ease;
+}
+header nav a:hover {
+  background-color: #1d8eff;
+  transform: translateY(-6px);
+}
+header nav a:active {
+  background-color: #0258c9;
+}
+header h1 {
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  color: #1C4D8D;
+  position: absolute;
+  z-index: 101;
+  top: 2vh;
+  left: 2vw;
+}
+header .nav-link {
+  font-weight: 600;
+  color: #0258c9;
+  padding: 1vh 2vw;
+  border-radius: 1vh;
+  background-color: transparent;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+header .nav-link .nav-link:hover {
+  background-color: #1d8eff;
+  transform: translateY(-6px);
+}
+header .nav-link .nav-link:active {
+  background-color: #0258c9;
+}
+
+.custom-button-card {
+  background-color: #4988C4;
+  color: white;
+  margin: 2vh 0 4vh 0;
+  align-items: center;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.2s ease;
+  background-color: #4988C4;
+}
+
+.custom-button-card:hover {
+  background-color: #1d8eff;
+  transform: translateY(-6px);
+}
+
+.custom-button-card:active {
+  background-color: #0258c9 !important;
+}
+
+.main-index-section-title {
+  font-weight: 600;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+  text-align: center;
+  background-color: #4988C4;
+  padding: 2vh;
+  color: #F0F8FF;
+  width: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5vh;
+}
+
+.cat-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2vh;
+  margin: 10vh 0;
+}
+
+.custom-cards {
+  background-color: #ffaa4e;
+  border: 1px solid #4988C4;
+  border-radius: 10px;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 4vh;
+}
+
+.card-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  margin-bottom: 2vh;
+  color: #0258c9;
+}
+
+.card-info {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #333333;
+}
+
+img.rodrigo-main {
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+img.wiskito-main {
+  width: 255px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+img.norberto-main {
+  width: 255px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+img.gerardo-main {
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.form-title {
+  font-weight: 600;
+  margin-bottom: 4vh;
+  color: #0258c9;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 1.5vh;
+  border-radius: 2vh;
+  padding: 2vh;
+  background-color: #ffa600;
+  border: 1px solid #848484;
+}
+
+.form-button {
+  background-color: #4988C4;
+  color: white;
+  padding: 0.8vh 1.5vw;
+  border: none;
+  border-radius: 1vh;
+  font-size: 1rem;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.2s ease;
+  background-color: #4988C4;
+}
+.form-button:hover {
+  background-color: #1d8eff;
+  transform: translateY(-6px);
+}
+.form-button:active {
+  background-color: #0258c9 !important;
+}
+
+.wiskito-1 {
+  width: 300px;
+  border-radius: 20vh;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2vh;
+}
+
+.wiskito-2 {
+  width: 300px;
+  border-radius: 20vh;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2vh;
+}
+
+.wiskito-3 {
+  width: 300px;
+  border-radius: 20vh;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2vh;
+}
+
+.rodrigo-1 {
+  width: 300px;
+  border-radius: 20vh;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2vh;
+}
+
+.rodrigo-2 {
+  width: 300px;
+  border-radius: 20vh;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2vh;
+}
+
+.rodrigo-3 {
+  width: 300px;
+  border-radius: 20vh;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2vh;
+}
+
+.norberto-1 {
+  width: 300px;
+  border-radius: 20vh;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2vh;
+}
+
+.norberto-2 {
+  width: 300px;
+  border-radius: 20vh;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2vh;
+}
+
+.norberto-3 {
+  width: 300px;
+  border-radius: 20vh;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2vh;
+}
+
+.gerardo-1 {
+  width: 300px;
+  border-radius: 20vh;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2vh;
+}
+
+.gerardo-2 {
+  width: 300px;
+  border-radius: 20vh;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2vh;
+}
+
+.gerardo-3 {
+  width: 300px;
+  border-radius: 20vh;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2vh;
+}
+
+.nosotros-1 {
+  width: 300px;
+  border-radius: 20vh;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2vh;
+}
+
+.nosotros-2 {
+  width: 300px;
+  border-radius: 20vh;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2vh;
+}
+
+.nosotros-3 {
+  width: 300px;
+  border-radius: 20vh;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2vh;
+}
+
+.about-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-div {
+  background-color: #ffaa4e;
+  width: 90%;
+  margin: 10px;
+  border-radius: 2vh;
+  padding: 3vh;
+}
+
+.main-section-title-us {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #ffa600;
+  height: 100vh;
+  width: 100%;
+  text-shadow: 3px 3px 4px black;
+  margin-top: 3vh;
+}
+.main-section-title-us::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../img/us-background.png") center/cover no-repeat;
+  z-index: -1;
+  border-radius: 50vh;
+  margin-top: 20vh;
+  width: 100%;
+  justify-self: center;
+}
+
+.about-wiskito {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-section-title-wiskito {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: rgb(208, 141, 8);
+  height: 100vh;
+  width: 100%;
+  padding-top: 3vh;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.main-section-title-wiskito::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../img/wiskito-background.png") center/cover no-repeat;
+  z-index: -1;
+  border-radius: 50vh;
+  margin-top: 20vh;
+  width: 80%;
+  justify-self: center;
+}
+
+.formulario-link {
+  color: #0258c9;
+  font-weight: 600;
+}
+
+.about-rodrigo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-section-title-rodrigo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: rgb(64, 64, 63);
+  height: 100vh;
+  width: 100%;
+  padding-top: 3vh;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.main-section-title-rodrigo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../img/rodrigo-background.png") center/cover no-repeat;
+  z-index: -1;
+  border-radius: 50vh;
+  margin-top: 20vh;
+  width: 80%;
+  justify-self: center;
+}
+
+.about-norberto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-section-title-norberto {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: rgb(134, 126, 126);
+  height: 100vh;
+  width: 100%;
+  padding-top: 3vh;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.main-section-title-norberto::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../img/norberto-background.png") center/cover no-repeat;
+  z-index: -1;
+  border-radius: 50vh;
+  margin-top: 20vh;
+  width: 80%;
+  justify-self: center;
+}
+
+.about-gerardo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-section-title-gerardo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: rgb(179, 156, 109);
+  height: 100vh;
+  width: 100%;
+  padding-top: 3vh;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.main-section-title-gerardo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../img/gerardo-background.png") center/cover no-repeat;
+  z-index: -1;
+  border-radius: 50vh;
+  margin-top: 20vh;
+  width: 80%;
+  justify-self: center;
+}
+
+footer {
+  font-weight: 700;
+  background-color: #BDE8F5;
+  color: rgb(60, 0, 163);
+  font-size: large;
+  margin-top: 5vh;
+  padding: 1vh;
+  text-align: center;
+  border-radius: 4vh 4vh 0 0;
+}
+footer a:hover {
+  color: rgb(28, 190, 174);
+  text-decoration: underline;
+}
+footer a:active {
+  color: rgb(23, 138, 127);
+  text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    position: absolute;
+    top: 0;
+    margin-left: 35%;
+    margin-right: auto;
+  }
+  .inicio-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navegador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .navegador-index {
+    padding-top: 7vh;
+    border-radius: 0 0 3vh 3vh;
+  }
+  .main-index-section-title {
+    width: 90%;
+    font-size: 4vh;
+  }
+  .custom-cards {
+    padding: 10px;
+  }
+  img.rodrigo-main,
+  img.wiskito-main,
+  img.norberto-main,
+  img.gerardo-main {
+    width: 75%;
+    margin-bottom: 15px;
+  }
+  .main-section-title-gerardo {
+    padding-top: 6vh;
+    text-shadow: 4px 3px 4px rgb(0, 0, 0);
+    height: 75vh;
+  }
+  .main-section-title-gerardo::after {
+    border-radius: 70vh;
+    height: 60vh;
+  }
+  .main-section-title-rodrigo {
+    padding-top: 3vh;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 13px rgb(207, 207, 207);
+    height: 75vh;
+  }
+  .main-section-title-rodrigo::after {
+    border-radius: 70vh;
+    height: 60vh;
+  }
+  .main-section-title-norberto {
+    padding-top: 4vh;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    height: 75vh;
+  }
+  .main-section-title-norberto::after {
+    border-radius: 20vh;
+    height: 60vh;
+  }
+  .main-section-title-wiskito {
+    padding-top: 4vh;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    height: 75vh;
+  }
+  .main-section-title-wiskito::after {
+    border-radius: 20vh;
+    height: 60vh;
+  }
+}
+@media (max-width: 1000px) {
+  body {
+    grid-template-areas: "encabezado encabezado" "titulo titulo" "wiskito rodrigo" "norberto gerardo" "footer footer";
+  }
+  header {
+    grid-area: encabezado;
+  }
+  .main-index-title {
+    grid-area: titulo;
+    margin-top: 5vh;
+  }
+  .wiskito-card-medium {
+    grid-area: wiskito;
+  }
+  .rodrigo-card-medium {
+    grid-area: rodrigo;
+  }
+  .norberto-card-medium {
+    grid-area: norberto;
+  }
+  .gerardo-card-medium {
+    grid-area: gerardo;
+  }
+  footer {
+    grid-area: footer;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
